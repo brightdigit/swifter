@@ -7,7 +7,7 @@ let package = Package(
 
   products: [
     .library(name: "Swifter", targets: ["Swifter"]),
-    .executable(name: "Example", targets: ["Example"])
+    .executable(name: "SwifterExample", targets: ["SwifterExample"])
   ],
 
   dependencies: [],
@@ -20,7 +20,7 @@ let package = Package(
       ),
 
     .target(
-      name: "Example", 
+      name: "SwifterExample", 
       dependencies: [
         "Swifter"
       ], 
